@@ -6,12 +6,11 @@ Install libraries
    pip install streamlit yfinance pandas numpy matplotlib plotly nltk pytz scikit-learn scipy requests
    ```
 
-2. Download NLTK data
+Download NLTK data
    ```Terminal
    python3 -c "import nltk; nltk.download('vader_lexicon')"
    ```
-
-3. Set up API key(optional)
+Set up API key(optional)
    
    Create `.streamlit/secrets.toml`:
    ```toml
@@ -19,11 +18,11 @@ Install libraries
    ```
    Get a free key from [Finnhub](https://finnhub.io/register)
 
-4. Launch the viewer
+Launch the viewer
    ```Terminal
    streamlit run TradeBot_V1.py
    ```
 
-5. Open in browser
+Open in browser
    
    Will automatically open at `http://localhost:8501`
